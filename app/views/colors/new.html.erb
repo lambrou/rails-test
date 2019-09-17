@@ -1,0 +1,8 @@
+<h1>What is your favorite color?</h1>
+<br />
+<%= simple_form_for @color do |f| %>
+  <%= f.input :favorite %>
+  <%= f.input :author %>
+  <br />
+  <%= f.submit 'Create' %>
+<% end %>
