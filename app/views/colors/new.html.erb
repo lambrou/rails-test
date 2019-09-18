@@ -1,8 +1,11 @@
-<h1>What is your favorite color?</h1>
+<h1 align="center">What is your favorite color?</h1>
 <br />
+<center>
 <%= simple_form_for @color do |f| %>
   <%= f.input :favorite %>
+  <br />
   <%= f.input :author %>
   <br />
   <%= f.submit 'Create' %>
 <% end %>
+</center>
